@@ -20,7 +20,12 @@ let producto = prompt("Ingrese el numero de repuesto a comprar \n 1-Disco de fre
     alert("el valor ingresado no es correcto recarga la pagina por favor")
     break
     }
-let cantidad = prompt("cuantos vas a llevar")    
+let cantidad = prompt("cuantos vas a llevar")   
+
+if (isNaN(cantidad)) {
+    alert("el valor ingresado no es correcto recarga la pagina por favor")
+    break
+  }
 
 efectivo(producto,cantidad)
 
