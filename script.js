@@ -18,6 +18,7 @@ let producto = prompt("Ingrese el numero de repuesto a comprar \n 1-Disco de fre
     }
     else {
     alert("el valor ingresado no es correcto recarga la pagina por favor")
+    break
     }
 let cantidad = prompt("cuantos vas a llevar")    
 
@@ -37,6 +38,7 @@ if (medioPago == 1) {
     
 } else {
     alert("el valor ingresado no es correcto recarga la pagina por favor")
+    break
 }
     function tarjeta(c) {
         let precioTarjeta =  c * 1.1
@@ -51,4 +53,4 @@ if (medioPago == 1) {
 fin = prompt("Si queres terminar la compra preciona 9 \n Si queres seguir comprando toca 0" )
 }
 
-alert("Gracias por tu compra")
+alert("Muchas Gracias!")
